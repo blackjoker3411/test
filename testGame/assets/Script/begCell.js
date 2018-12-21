@@ -41,5 +41,10 @@ cc.Class({
 
     },
 
+    init: function(){
+        cc.log('init bag cell!');
+        this.label_name.string = "aaaaa"
+    },
+
     // update (dt) {},
 });
